@@ -265,7 +265,7 @@ function Contact() {
                       href="mailto:support@civix.com"
                       className="text-emerald-600 dark:text-emerald-400 hover:text-lime-700 dark:hover:text-lime-300 transition-colors font-medium"
                     >
-                      support@civix.com
+                      support@civicIQ.com
                     </a>
                   </div>
                 </div>
