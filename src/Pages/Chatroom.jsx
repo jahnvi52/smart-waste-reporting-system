@@ -94,7 +94,7 @@ export default function SmartWasteChatRoom() {
             </div>
             <div>
               <h1 className="text-xl font-bold bg-gradient-to-r from-green-700 to-emerald-700 bg-clip-text text-transparent">
-                Smart Waste Reporting System Community
+                CivicIQ
               </h1>
               <p className="text-sm text-gray-500">Community Services & Local Initiatives</p>
             </div>
