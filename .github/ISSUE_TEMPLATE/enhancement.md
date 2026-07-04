@@ -1,6 +1,6 @@
 ---
 name: "✨ Enhancement"
-about: Suggest a new feature or improvement for Civix
+about: Suggest a new feature or improvement for CivicIQ
 title: "[Feature]: "
 labels: enhancement
 assignees: ''
