@@ -9,6 +9,6 @@ describe('Home Component', () => {
     render(<Home />);
 
     // Check if an element with the text "Welcome to Smart Waste Reporting System" exists.
-    expect(screen.getByText(/Welcome to Smart Waste Reporting System/i)).toBeInTheDocument();
+    expect(screen.getByText(/Welcome to CivicIQ/i)).toBeInTheDocument();
   });
 });
