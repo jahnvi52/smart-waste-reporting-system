@@ -6,7 +6,7 @@ const testimonials = [
     role: "Resident, Bangalore",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
     message:
-      "Smart Waste Reporting System helped me report a huge pothole near my street. The issue was resolved in 3 days!",
+      "CivicIQ helped me report a huge pothole near my street. The issue was resolved in 3 days!",
     rating: 5
   },
   {
@@ -14,7 +14,7 @@ const testimonials = [
     role: "Teacher, Chennai",
     image: "https://randomuser.me/api/portraits/women/45.jpg",
     message:
-      "I love how simple and fast Smart Waste Reporting System is. Clean streets and working streetlights again!",
+      "I love how simple and fast CivicIQ is. Clean streets and working streetlights again!",
     rating: 5
   },
   {
@@ -30,7 +30,7 @@ const testimonials = [
     role: "Designer, Kolkata",
     image: "https://randomuser.me/api/portraits/women/60.jpg",
     message:
-      "Being able to track my report's status makes all the difference. Fantastic work Smart Waste Reporting System!",
+      "Being able to track my report's status makes all the difference. Fantastic work CivicIQ!",
     rating: 5
   },
   {
@@ -46,7 +46,7 @@ const testimonials = [
     role: "Entrepreneur, Mumbai",
     image: "https://randomuser.me/api/portraits/women/72.jpg",
     message:
-      "Makes community participation simple and effective. Love Smart Waste Reporting System!",
+      "Makes community participation simple and effective. Love CivicIQ!",
     rating: 5
   },
 ];
@@ -157,7 +157,7 @@ const TestimonialCarousel = () => {
           </h2>
           
           <p className="text-slate-600 dark:text-slate-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            Real stories from community members who are making a difference with Smart Waste Reporting System
+            Real stories from community members who are making a difference with CivicIQ
           </p>
         </div>
 

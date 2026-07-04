@@ -85,8 +85,8 @@ function Home() {
 const questions = [
   {
     id: 1,
-    question: "What is Smart Waste Reporting System?",
-    answer: "Smart Waste Reporting System is a civic engagement platform that allows citizens to report and track local issues in their communities, such as potholes, broken streetlights, and garbage collection problems.",
+    question: "What is CivicIQ?",
+    answer: "CivicIQ is a civic engagement platform that allows citizens to report and track local issues in their communities, such as potholes, broken streetlights, and garbage collection problems.",
     popular: true,
     icon: (
       <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -111,8 +111,8 @@ const questions = [
   },
   {
     id: 3,
-    question: "Is Smart Waste Reporting System free to use?",
-    answer: "Yes, Smart Waste Reporting System is completely free for citizens to use. There are no hidden fees or charges.",
+    question: "Is CivicIQ free to use?",
+    answer: "Yes, CivicIQ is completely free for citizens to use. There are no hidden fees or charges.",
     popular: true,
     icon: (
       <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -125,7 +125,7 @@ const questions = [
   {
     id: 4,
     question: "How can I track the status of my report?",
-    answer: "You can track the status of your report through the Smart Waste Reporting System app or website. You will receive notifications when your issue is reviewed and resolved.",
+    answer: "You can track the status of your report through the CivicIQ app or website. You will receive notifications when your issue is reviewed and resolved.",
     icon: (
       <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
         <path d="M12 8v4l3 3" />
@@ -155,7 +155,7 @@ const questions = [
       category: "Infrastructure"
     },
     { 
-      quote: "As a city worker, Smart Waste Reporting System has transformed how we manage local issues. The dashboard makes it easy to prioritize and track our work.", 
+      quote: "As a city worker, CivicIQ has transformed how we manage local issues. The dashboard makes it easy to prioritize and track our work.", 
       name: "Akshay Prakash", 
       role: "Public Works, Delhi",
       avatar: "https://randomuser.me/api/portraits/men/46.jpg",
@@ -163,7 +163,7 @@ const questions = [
       category: "Management"
     },
     { 
-      quote: "The transparency and speed of resolution through Smart Waste Reporting System has restored my faith in local government. Highly recommend to every citizen.", 
+      quote: "The transparency and speed of resolution through CivicIQ has restored my faith in local government. Highly recommend to every citizen.", 
       name: "Meera Sharma", 
       role: "Teacher, Chennai",
       avatar: "https://randomuser.me/api/portraits/women/68.jpg",
@@ -171,7 +171,7 @@ const questions = [
       category: "Community"
     },
     { 
-      quote: "Our community engagement has increased by 300% since implementing Smart Waste Reporting System. Citizens feel heard and empowered to make real change.", 
+      quote: "Our community engagement has increased by 300% since implementing CivicIQ. Citizens feel heard and empowered to make real change.", 
       name: "Rahul Singh", 
       role: "City Manager, Mumbai",
       avatar: "https://randomuser.me/api/portraits/men/57.jpg",
@@ -205,7 +205,8 @@ const questions = [
       title: "Report Issues",
       description: "Easily report problems with photos, location data, and detailed descriptions for faster resolution.",
       features: ["Photo uploads", "Map integration", "Categorized issues"],
-      gradient: "from-emerald-400 to-teal-500"
+      gradient: "from-emerald-400 to-teal-500",
+link: "/report-issue",
     },
     {
       icon: (
@@ -217,7 +218,8 @@ const questions = [
       title: "Track Progress",
       description: "Follow the status of your reports from submission to resolution with real-time insights.",
       features: ["Real-time updates", "Status notifications", "Resolution timeline"],
-      gradient: "from-teal-400 to-cyan-500"
+      gradient: "from-teal-400 to-cyan-500",
+link: "/issue-map",
     },
     {
       icon: (
@@ -292,8 +294,8 @@ const questions = [
       />
 
       <Helmet>
-        <title>Smart Waste Reporting System | Report Local Issues & Improve Your Community</title>
-        <meta name="description" content="Smart Waste Reporting System helps citizens report and track local civic issues like potholes, broken lights, and garbage collection problems. Make your city better today!" />
+        <title>CivicIQ | Report Local Issues & Improve Your Community</title>
+        <meta name="description" content="CivicIQ helps citizens report and track local civic issues like potholes, broken lights, and garbage collection problems. Make your city better today!" />
       </Helmet>
 
 
@@ -323,7 +325,7 @@ const questions = [
 </motion.h1>
 
           <p className="text-muted-foreground md:text-xl leading-relaxed">
-            Smart Waste Reporting System helps citizens report and track local civic issues like potholes,
+            CivicIQ helps citizens report and track local civic issues like potholes,
             broken lights, and garbage collection problems. Join thousands making their
             communities better.
           </p>
@@ -401,7 +403,7 @@ const questions = [
               </div>
               <div className="flex items-center justify-center animate-on-scroll">
                 <div className="relative w-full max-w-[400px] aspect-[4/3] overflow-hidden rounded-xl border shadow-2xl transition-all duration-500 hover:shadow-3xl hover:scale-[1.02] bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-800 dark:to-gray-900">
-                  <img src="pexels.jpg" alt="Smart Waste Reporting System App Interface showing issue reporting" className="shadow-lg object-cover w-full h-full transform transition-transform duration-500 hover:scale-105 hover:rotate-1" loading="lazy" />
+                  <img src="pexels.jpg" alt="CivicIQ App Interface showing issue reporting" className="shadow-lg object-cover w-full h-full transform transition-transform duration-500 hover:scale-105 hover:rotate-1" loading="lazy" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent"></div>
                   <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-1">
                     <span className="text-xs font-medium text-gray-700">✅ Live Demo</span>
@@ -433,7 +435,7 @@ const questions = [
           </h2>
           
           <p className="text-slate-600 dark:text-slate-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            Smart Waste Reporting System provides a comprehensive platform for citizens and city workers to collaborate 
+            CivicIQ provides a comprehensive platform for citizens and city workers to collaborate 
             on local issues and build stronger communities together.
           </p>
         </div>
@@ -442,7 +444,8 @@ const questions = [
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group relative bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/20 dark:border-slate-700/50 hover:shadow-xl dark:hover:shadow-2xl transition-all duration-500 hover:-translate-y-2"
+              className="group relative bg-white/70 dark:bg-slate-800/70 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-white/20 dark:border-slate-700/50 hover:shadow-xl dark:hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 cursor-pointer"
+onClick={() => navigate(feature.link)}
             >
               <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-5 dark:group-hover:opacity-10 rounded-2xl transition-opacity duration-500`}></div>
               
@@ -511,7 +514,7 @@ const questions = [
           </h2>
           
           <p className="text-slate-600 dark:text-slate-400 text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
-            Smart Waste Reporting System makes it easy to report issues and track their resolution in just a few simple steps. 
+            CivicIQ makes it easy to report issues and track their resolution in just a few simple steps. 
             Join thousands of citizens making their communities better.
           </p>
         </div>
@@ -606,7 +609,7 @@ const questions = [
           </h2>
           
           <p className="text-slate-600 dark:text-slate-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            See what citizens and city workers are saying about Smart Waste Reporting System and how it's transforming communities across the nation.
+            See what citizens and city workers are saying about CivicIQ and how it's transforming communities across the nation.
           </p>
         </div>
 
@@ -689,7 +692,7 @@ const questions = [
         <div className="inline-block rounded-lg bg-emerald-100 px-3 py-1 text-sm text-emerald-700">FAQs</div>
         <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Frequently Asked Questions</h2>
         <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-          Find answers to commonly asked questions about Smart Waste Reporting System platform features and services.
+          Find answers to commonly asked questions about CivicIQ platform features and services.
         </p>
       </div>
       {/* FAQ Filter */}
@@ -828,7 +831,7 @@ const questions = [
               <div className="flex flex-col justify-center space-y-4 animate-on-scroll">
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight bg-gradient-to-tr from-[#7cf9ff] to-[#0037ff] bg-clip-text text-transparent">Ready to improve your community?</h2>
-                  <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">Download the Smart Waste Reporting System app today and start making a difference in your neighborhood.</p>
+                  <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">Download the CivicIQ app today and start making a difference in your neighborhood.</p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Link to="/download-ios">
