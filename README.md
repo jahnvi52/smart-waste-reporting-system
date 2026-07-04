@@ -6,13 +6,6 @@
 >**Current systems stop at registering complaints. CivicIQ is designed to transform every complaint into the first step of an intelligent municipal decision**
 
 ## 🧠 Overview
-  
-**CivicIQ** is a full-stack web application designed to streamline the process of reporting, tracking, and resolving local civic issues such as potholes, broken streetlights, and uncollected garbage. It provides a bridge between citizens and municipal authorities, bringing accountability and transparency to local issue resolution. 
-
-(image)
-*Caption: Citizen view showing issue reporting interface*
-
-## 🧠 Overview
 CivicIQ is an AI-powered Smart Waste Management platform that bridges the gap between citizens and municipalities. Citizens can report waste by uploading an image and location, while AI automatically classifies the waste into categories such as Plastic, Organic, E-Waste, Construction Debris, or Mixed Waste.
 Unlike traditional complaint management systems that stop at complaint registration, CivicIQ transforms every report into structured, actionable data for municipalities, laying the foundation for intelligent decision support.
 
