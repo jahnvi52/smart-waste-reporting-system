@@ -3,6 +3,7 @@
 **Domain**: Governance / Public Welfare  
 **Tagline**: From Complaint to Intelligent Action 
 
+>**Current systems stop at registering complaints. CivicIQ is designed to transform every complaint into the first step of an intelligent municipal decision**
 
 ## 🧠 Overview
   
