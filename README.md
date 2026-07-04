@@ -306,8 +306,11 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 
 --- 
 
-## 📄 License
-MIT License. See LICENSE file for more details.
+## 🙏 Acknowledgements
+
+CivicIQ is built upon the open-source Civix project, licensed under the MIT License.
+
+Our team extended the platform by redesigning it specifically for AI-powered waste management, introducing AI-based waste classification, waste-specific workflows, and a roadmap toward intelligent municipal decision support.
 
 <p align="center">
   <a href="#top" style="font-size: 18px; padding: 8px 16px; display: inline-block; border: 1px solid #ccc; border-radius: 6px; text-decoration: none;">
