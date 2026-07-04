@@ -86,7 +86,6 @@ if (cluster.isPrimary) {
     "/api/contributors", // Public read-only API
     "/api-docs", // Swagger documentation
     "/api/auth/webhook", // Potential webhooks (if any)
-"/api/issues", // Public issue reporting, no session/CSRF needed
   ];
   app.use(skipCSRFForRoutes(csrfSkipRoutes));
 

@@ -139,28 +139,23 @@ export default function ReportIssue() {
 
     setIsSubmitting(true);
     
-    try {const submitData = new FormData();
-      submitData.append('title', formData.title);
-      submitData.append('description', formData.description + (formData.location ? ` (Location: ${formData.location})` : ''));
-      submitData.append('phone', formData.phone);
-      submitData.append('email', formData.email);
-      submitData.append('notifyByEmail', 'true');
-      if (file) {
-        submitData.append('file', file);
-      }
-
-      const response = await fetch('http://localhost:5000/api/issues', {
-        method: 'POST',
-        body: submitData
-      });
-
-      if (!response.ok) {
-        throw new Error('Submission failed');
-      }
-
-      const result = await response.json();
-      console.log("Issue submitted:", result);
+    try {
+      await new Promise(resolve => setTimeout(resolve, 2000));
+      console.log("Issue submitted:", { ...formData, file: file?.name });
       setSubmitStatus("success");
+      
+      downloadReceipt(formData);
+      
+      setFormData({
+        phone: "",
+        email: "",
+        title: "",
+        description: "",
+        location: "",
+      });
+      setFile(null);
+      
+      setTimeout(() => setSubmitStatus(null), 5000);
     } catch (err) {
       console.error("Submit error:", err);
       setSubmitStatus("error");
