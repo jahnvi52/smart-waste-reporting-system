@@ -48,7 +48,6 @@ const EnhancedQRCode = () => {
       {/* Enhanced Floating Icon */}
       <div className="floating-icon-glow absolute -bottom-6 -left-6 h-20 w-20 rounded-2xl border-4 border-white dark:border-gray-800 bg-gradient-to-br from-white via-slate-50 to-gray-100 dark:from-[#1f2937] dark:via-[#111827] dark:to-[#0f172a] p-3 shadow-2xl transition-all duration-300 hover:scale-110 hover:rotate-6 group">
         <div className="flex items-center justify-center h-full w-full rounded-xl bg-gradient-to-br from-emerald-100 via-green-100 to-emerald-200 dark:from-emerald-900 dark:via-green-900 dark:to-emerald-800 group-hover:from-emerald-200 group-hover:via-green-200 group-hover:to-emerald-300 dark:group-hover:from-emerald-800 dark:group-hover:via-green-800 dark:group-hover:to-emerald-700 transition-all duration-300">
-          <img 
         </div>
         
         {/* Glow Effect */}

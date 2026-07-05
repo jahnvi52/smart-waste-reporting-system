@@ -51,7 +51,6 @@ const DownloadPageQRCode = ({
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 <div className="app-icon-container rounded-2xl p-4 shadow-xl backdrop-blur-sm">
                   <div className={`app-icon-bg ${iconSizes[size]} flex items-center justify-center rounded-xl shadow-lg`}>
-                    <img 
                   </div>
                 </div>
               </div>
