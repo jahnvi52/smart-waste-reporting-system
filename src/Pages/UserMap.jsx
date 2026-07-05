@@ -42,6 +42,11 @@ export default function UserMap() {
     { title: "Public park lights off", description: "No lighting in park, unsafe at evening.", status: "Resolved", category: "Lighting", date: "2025-07-30", lat: 26.9124, lng: 75.7873 },
     { title: "Open manhole", description: "Uncovered manhole near marketplace.", status: "Pending", category: "Safety", date: "2025-08-18", lat: 11.0168, lng: 76.9558 },
     { title: "Sewage overflow", description: "Sewage water overflowing after rain.", status: "Under Review", category: "Water", date: "2025-08-16", lat: 15.2993, lng: 74.124 },
+    { title: "Rotting food waste dumped", description: "Organic waste decomposing, attracting pests.", status: "Pending", category: "Organic", date: "2025-08-19", lat: 28.5355, lng: 77.3910 },
+    { title: "Plastic bottles littering park", description: "Large pile of plastic bottles near playground.", status: "Under Review", category: "Plastic", date: "2025-08-14", lat: 18.5204, lng: 73.8567 },
+    { title: "Discarded electronics dumped", description: "Old batteries and circuit boards dumped illegally.", status: "Pending", category: "E-Waste", date: "2025-08-13", lat: 12.2958, lng: 76.6394 },
+    { title: "Chemical drum abandoned", description: "Unmarked chemical drum leaking near residential area.", status: "In Progress", category: "Hazardous", date: "2025-08-11", lat: 21.1702, lng: 72.8311 },
+    { title: "Recyclables mixed with trash", description: "Cardboard and glass mixed in general waste bin.", status: "Resolved", category: "Recyclable", date: "2025-07-28", lat: 26.8467, lng: 80.9462 },
   ];
 
   const filteredIssues = userIssues.filter(
@@ -63,6 +68,11 @@ export default function UserMap() {
     Lighting: "text-indigo-800 border-indigo-300 bg-indigo-50 dark:text-indigo-200 dark:bg-indigo-900/30 dark:border-indigo-700",
     Water: "text-teal-800 border-teal-300 bg-teal-50 dark:text-teal-200 dark:bg-teal-900/30 dark:border-teal-700",
     Safety: "text-rose-800 border-rose-300 bg-rose-50 dark:text-rose-200 dark:bg-rose-900/30 dark:border-rose-700",
+    Organic: "text-lime-800 border-lime-300 bg-lime-50 dark:text-lime-200 dark:bg-lime-900/30 dark:border-lime-700",
+    Plastic: "text-blue-800 border-blue-300 bg-blue-50 dark:text-blue-200 dark:bg-blue-900/30 dark:border-blue-700",
+    "E-Waste": "text-purple-800 border-purple-300 bg-purple-50 dark:text-purple-200 dark:bg-purple-900/30 dark:border-purple-700",
+    Hazardous: "text-yellow-800 border-yellow-400 bg-yellow-50 dark:text-yellow-200 dark:bg-yellow-900/30 dark:border-yellow-700",
+    Recyclable: "text-emerald-800 border-emerald-300 bg-emerald-50 dark:text-emerald-200 dark:bg-emerald-900/30 dark:border-emerald-700",
   };
 
   return (
@@ -130,6 +140,11 @@ export default function UserMap() {
                 <option value="Lighting">💡 Lighting</option>
                 <option value="Water">💧 Water</option>
                 <option value="Safety">⚠️ Safety</option>
+                <option value="Organic">🍂 Organic</option>
+                <option value="Plastic">🥤 Plastic</option>
+                <option value="E-Waste">🔋 E-Waste</option>
+                <option value="Hazardous">☣️ Hazardous</option>
+                <option value="Recyclable">♻️ Recyclable</option>
               </select>
             </div>
           </div>
