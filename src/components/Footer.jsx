@@ -357,7 +357,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <h2 className="text-xl font-bold bg-gradient-to-r from-emerald-600 via-blue-600 to-purple-600 bg-clip-text text-transparent bg-300% animate-gradient">
-                    CIVIX
+                    CivicIQ
                   </h2>
                   <p className="text-xs text-slate-500 dark:text-slate-400 font-medium mt-1">
                     Civic Engagement Platform
@@ -416,13 +416,13 @@ const Footer = () => {
             </div>
             <div className="space-y-3">
               <a
-                href="mailto:support@civix.com"
+                href="mailto:support@civiciq.com"
                 className="flex items-center space-x-2 text-slate-600 dark:text-slate-300 text-sm group transition-colors duration-300 hover:text-emerald-600 dark:hover:text-emerald-400"
               >
                 <div className="w-6 h-6 bg-emerald-100 dark:bg-emerald-900/30 rounded-md flex items-center justify-center group-hover:bg-emerald-200 dark:group-hover:bg-emerald-800/50 transition-colors duration-300">
                   <Mail className="w-3 h-3 text-emerald-600 dark:text-emerald-400" />
                 </div>
-                <span>support@civix.com</span>
+                <span>support@civiciq.com</span>
               </a>
               <a
                 href="tel:+15551234567"
