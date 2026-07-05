@@ -6,7 +6,6 @@ import { AnimatePresence } from 'framer-motion';
 
 import Home from './Home';
 import Login from './components/Login';
-import Signup from './components/Signup';
 import PrivateRoute from './components/PrivateRoute';
 import RequireAdmin from './components/auth/RequireAdmin';
 import AdminDashboard from './Pages/AdminDashboard';
@@ -38,6 +37,7 @@ import Contributors from './Pages/Contributors';
 import ScrollToTopOnRouteChange from './components/ScrollToTopOnRouteChange';
 import SOS from './Pages/SOS';
 import Chatroom from './Pages/Chatroom';
+import { ThemeProvider } from './context/ThemeContext';
 import TaxImpact from './Pages/TaxImpact';
 import RepersentativeFinder from './Pages/RepersentativeFinder';
 import Analytics from './Pages/Analytics';
@@ -87,7 +87,7 @@ const App = () => {
   };
 
   return (
-    <>
+    <ThemeProvider>
       <ScrollToTop />
       <ScrollToTopOnRouteChange/>
       <Toaster
@@ -128,7 +128,6 @@ const App = () => {
             <Route path="/terms" element={<Terms />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
             <Route path="/report-issue" element={<ReportIssue />} />
             <Route path="/download-android" element={<DownloadAndroid />} />
             <Route path="/download-ios" element={<DownloadIOS />} />
@@ -208,7 +207,7 @@ const App = () => {
 
       {!isAdminRoute && <Footer />}
 
-    </>
+    </ThemeProvider>
   );
 };
 
