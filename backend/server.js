@@ -5,7 +5,7 @@ const process = require("process");
 const numCPUs = os.cpus().length;
 if (cluster.isPrimary) {
   console.log(`======================================`);
-  console.log(`Civix Backend Primary Process Started`);
+  console.log(`CivicIQ Backend Primary Process Started`);
   console.log(`Primary PID:${process.pid}`);
   console.log(`=======================================`);
   console.log(`Forking server for ${numCPUs} CPU Cores...`);
