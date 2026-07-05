@@ -58,7 +58,7 @@ const updateIssueStatus = asyncHandler(async (req, res) => {
   if (issue.notifyByEmail && issue.email) {
     await sendEmail(
       issue.email,
-      'Civix - Issue Status Update',
+      'CivicIQ - Issue Status Update',
       `<p>Your issue <strong>${issue.title}</strong> is now <strong>${newStatus}</strong>.</p>`
     );
   }
@@ -143,7 +143,7 @@ const updateIssue = asyncHandler(async (req, res) => {
   if (updatedIssue.notifyByEmail && updatedIssue.email) {
     await sendEmail(
       updatedIssue.email,
-      "Civix - Issue Updated",
+      "CivicIQ - Issue Updated",
       `<p>Your issue <strong>${updatedIssue.title}</strong> has been updated successfully.</p>
        <p>You can check the latest details in the system.</p>`
     );
