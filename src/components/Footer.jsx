@@ -49,21 +49,21 @@ const Footer = () => {
     },
     {
       name: "Twitter",
-      href: "https://twitter.com/civix",
+      href: "https://twitter.com/civicIQ",
       icon: Twitter,
       description: "Follow us on Twitter",
       color: "hover:bg-blue-400 hover:text-white",
     },
     {
       name: "LinkedIn",
-      href: "https://linkedin.com/company/civix",
+      href: "https://linkedin.com/company/civicIQ",
       icon: Linkedin,
       description: "Connect on LinkedIn",
       color: "hover:bg-blue-600 hover:text-white",
     },
     {
       name: "YouTube",
-      href: "https://youtube.com/c/civix",
+      href: "https://youtube.com/c/civicIQ",
       icon: Youtube,
       description: "Watch our videos",
       color: "hover:bg-red-600 hover:text-white",
@@ -656,13 +656,13 @@ const Footer = () => {
               <div className="flex items-center space-x-1">
                 <span>Built by</span>
                 <a
-                  href="https://github.com/HarshS16"
+                  href="https://github.com/jahnvi52"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group inline-flex items-center space-x-1 text-emerald-600 hover:text-emerald-700 dark:text-emerald-400 dark:hover:text-emerald-300 font-semibold transition-all duration-300 hover:scale-105"
-                  aria-label="Visit Harsh S.'s GitHub profile"
+                  aria-label="Visit Jahnvi's GitHub profile"
                 >
-                  <span>Harsh S.</span>
+                  <span>Jahnvi S.</span>
                   <ExternalLink className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-all duration-300" />
                 </a>
               </div>
