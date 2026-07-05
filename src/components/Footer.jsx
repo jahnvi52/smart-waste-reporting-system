@@ -23,7 +23,6 @@ import {
   Youtube,
 } from "lucide-react";
 import { Link } from "react-router-dom";
-import logoF from "../assets/logo.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -354,10 +353,6 @@ const Footer = () => {
                       hoveredItem === "logo" ? "opacity-15" : ""
                     }`}
                   ></div>
-                  <img
-                    src={logoF}
-                    alt="CivicIQ Logo"
-                    className="w-12 h-auto transition-all duration-500 group-hover:scale-110 group-hover:rotate-3"
                   />
                 </div>
                 <div>

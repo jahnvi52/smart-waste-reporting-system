@@ -3,7 +3,6 @@ import { useNavigate, Link, useLocation } from 'react-router-dom';
 import Switch from '../DarkModeToggle';
 import { jwtDecode } from 'jwt-decode';
 import { useAuth } from '@clerk/clerk-react';
-import logo from '../assets/logo.png';
 import { title } from 'process';
 import { Info, Phone, Users, User, LogOut, Shield, LayoutDashboard, BookOpen, Menu, X, AlertTriangle,Vote,Map } from 'lucide-react';
 

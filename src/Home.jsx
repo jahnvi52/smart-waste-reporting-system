@@ -10,7 +10,6 @@ import Navbar from "./components/Navbar";
 
 import TestimonialCarousel from "./components/TestimonialCarousel";
 import { AnimatePresence } from "framer-motion";
-import favv from './favv.svg';
 import EnhancedQRCode from "./components/EnhancedQRCode";
 import ProfileCompletionBanner from "./components/ProfileCompletionBanner";
 import useProfileStatus from "./hooks/useProfileStatus";
