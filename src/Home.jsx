@@ -233,7 +233,8 @@ link: "/issue-map",
       title: "Community Voting",
       description: "Upvote issues in your area to help prioritize what matters most to your community.",
       features: ["Issue upvoting", "Trending issues", "Community feedback"],
-      gradient: "from-cyan-400 to-blue-500"
+      gradient: "from-cyan-400 to-blue-500",
+      link: "/community-voting",
     }
   ];
   const steps = [
