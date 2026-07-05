@@ -139,7 +139,7 @@ const Footer = () => {
           name: "Contributors",
           href: "/contributors",
           icon: UsersIcon,
-          description: "Meet our team",
+          description: "Meet our team!",
         },
       ],
     },
