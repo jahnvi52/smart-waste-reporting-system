@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Civix.iml" filepath="$PROJECT_DIR$/.idea/Civix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Civix.iml" filepath="$PROJECT_DIR$/.idea/CivicIQ.iml" />
     </modules>
   </component>
 </project>
