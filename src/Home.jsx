@@ -219,7 +219,7 @@ link: "/report-issue",
       description: "Follow the status of your reports from submission to resolution with real-time insights.",
       features: ["Real-time updates", "Status notifications", "Resolution timeline"],
       gradient: "from-teal-400 to-cyan-500",
-link: "/issue-map",
+link: "/user-map",
     },
     {
       icon: (
