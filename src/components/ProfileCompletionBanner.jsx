@@ -29,7 +29,7 @@ const ProfileCompletionBanner = () => {
             to="/profile-setup"
             className="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-yellow-800 bg-yellow-100 hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 transition-colors duration-200"
           >
-            Complete Profile
+            Complete Profile!
           </Link>
         </div>
       </div>
